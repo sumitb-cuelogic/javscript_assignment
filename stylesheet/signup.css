@@ -1,0 +1,48 @@
+
+.container{
+    width:500px;
+    margin:  150px auto;
+    color:gray;
+}
+
+.inputtext{
+
+    width:350px;
+    height: 40px;
+    font-size: 18px;
+    margin:5px;
+    padding-left: 10px;
+}
+
+.radiobutton{
+    margin-left:10px;
+  
+   
+}
+.profimg{
+    font-size: 18px;
+  
+    margin-left:10px;
+    color:red;
+    background-color:white;
+    border-style: none;
+}
+
+.registerb{
+
+    width:200px;
+    height:40px;
+    margin-top: 5px;
+     margin-left: 90px;
+    border-color: green;
+    border-radius: 19px;
+    background-color: white;
+    font-size: 18px;
+    border-width: 1px;
+  
+  
+           
+}         #passmsg{
+        color:red;
+        margin-left: 50px;
+}
