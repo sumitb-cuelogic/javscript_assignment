@@ -6,12 +6,31 @@
     <title>Sign Up</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./stylesheet/signup.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheet/normlize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./stylesheet/reset.css" />
     <script src="./jsp/signup.js"></script>
+    <script src="./jsp/profile.js"></script>
     
 </head>
 <body>
+
+        <header class="header">
+               <p class="labellogin">LOGIN</p>    
+            <form action="" class="login">       
+               <input class="logininput" type="text" name="username" id="usernamel" placeholder=" Username/Email" required>     
+               <input  class="logininput" type="password" name="password" id="passwordl" placeholder=" Password" required>
+               <button class="loginb" onclick="validateUserLogin(event)">Login</button>  
+            </form>
+
+        </header>
+
+
+
     <div class="container">
     <form action="" id="formdata">
+                <p>Sign Up </p> 
+                                
+                
                 <input class="inputtext" type="text" id="email" name="email"  onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email* '" required  placeholder=" Email* " onfocusout="ValidateEmail(this)" >
                  <input class="inputtext"type="text" id="fname" name="fname" onfocus="this.placeholder = ''" onblur="this.placeholder = ' First name* '"  placeholder=" First name*" required onfocusout="validatefname(this)"> 
                  <input class="inputtext"type="text"  id="lname"  name="lname"  onfocus="this.placeholder = ''" onblur="this.placeholder = ' Last name*'"placeholder=" Last name*" required onfocusout="validatefname(this)"> <br>  
